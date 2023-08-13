@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primera Pagina Html</title>
 </head>
+
 <body>
     <h1>Pagina web de prueba</h1>
 
@@ -53,27 +55,76 @@
 
     <!-- Estudiante #2 -->
     <div>
-              
+
     </div>
 
     <!-- Estudiante #3 -->
     <div>
 
-        <form action="maneja_formulario.php" method="post">          
+        <!-- Formulario en clase -->
+        <form action="maneja_formulario.php" method="post">
             <fieldset>
-              <legend>Datos de conexión</legend>
-              Nombre de usuario<br/>
-              <input type="text" name="nombre" value="" maxlength="10" />
-              <br/>
-              Contraseña<br/>
-              <input type="password" name="password" value="" maxlength="10" />
-              <br/>
-              Repite la contraseña<br/>
-              <input type="password" name="password2" value="" maxlength="10" />
+                <legend>Datos de conexión</legend>
+                Nombre de usuario<br />
+                <input type="text" name="nombre" value="" maxlength="10" />
+                <br />
+                Contraseña<br />
+                <input type="password" name="password" value="" maxlength="10" />
+                <br />
+                Repite la contraseña<br />
+                <input type="password" name="password2" value="" maxlength="10" />
             </fieldset>
-          </form>    
+        </form>
 
+        <!-- Etiqueta IMG -->
+
+        <div>
+
+            <!-- Ejemplo sencillo de la etique img HTML -->
+            <h2>iPhone 14 128GB 5G </h2>
+            <img src="https://tienda.claro.com.co/wcsstore/Claro/images/catalog/equipos/646x1000/700506661.jpg"
+                alt="Iphone 14" width="400" height="600" />
+            <!-- FIN -->
+
+            <!-- Ejemplo mapas de imagen -->
+            <h2>Samsung Galaxy S23Ultra 5G 256Gb Verde</h2>
+            <img src="https://www.alkosto.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-8806094711417-001.jpg?context=bWFzdGVyfGltYWdlc3wyMTkzMzl8aW1hZ2UvanBlZ3xhREk0TDJneU55OHhNelk0T1RJeU5Ua3dOREUxT0M4M05UQlhlRGMxTUVoZmJXRnpkR1Z5TDJodmRHWnZiR1JsY2k5MGNtRnVjMlpsY2k5cGJtTnZiV2x1Wnk5a1pYQnZjMmwwTDJoNVluSnBjeTFwYm5SbGNtWmhZMlZ6TDBsT0wyMWxaR2xoTDNCeWIyUjFZM1F2T0Rnd05qQTVORGN4TVRReE4xOHdNREV1YW5CbnwzNThkNmI0MTM2MDlhODRmZDA0OWY0YTNjNTEyNGY1Y2Y1NTAyZWQ0Mzc0NTBjZjQ1ZDQwNDMwZDJmMWU5MmU4"
+                width="400" height="600" usemap="#mapa_zonas" />
+
+            <map name="mapa_zonas">
+                <area shape="rect" coords="20,25,84,113" href="#" />
+                <area shape="polygon" coords="90,25,162,26,163,96,89,25,90,24" href="#" />
+                <area shape="circle" coords="130,114,29" href="#" />
+                <area shape="rect" coords="19,156,170,211" href="#" />
+                <area shape="default" nohref="nohref" />
+            </map>
+            <!-- FIN -->
+            <br>
+            <!-- Objetos  -->
+            <object data="NASA.mp3" type="application/mp3"> </object><br>
+            <object data="NASA.mp3" type="application/x-shockwave-flash"></object><br>
+            <object title="La Tierra vista desde el espacio" classid="http://www.observer.mars/TheEarth.py" ></object>
+            <!-- Formato alternativo en forma de vídeo -->
+                <object data="PlanetaTierra.mpeg" type="application/mpeg">
+                    <!-- Otro formato alternativo mediante una imagen GIF -->
+                    <object data="PlanetaTierra.gif" type="image/gif">
+                        <!-- Si el navegador no soporta ningún formato, se muestra el siguiente texto -->
+                        La <strong>Tierra</strong> vista desde el espacio.
+                    </object>
+                </object>
+            </object>
+
+            <object width="425" height="350">
+                <param name="movie" value="https://youtu.be/tkkpiEsOFBU">
+                </param>
+                <param name="wmode" value="transparent">
+                </param>
+                <embed src="https://youtu.be/tkkpiEsOFBU" type="application/x-shockwave-flash" wmode="transparent"
+                    width="425" height="350"></embed>
+            </object>
+        </div>
     </div>
 
 </body>
+
 </html>
