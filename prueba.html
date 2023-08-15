@@ -13,25 +13,36 @@
     <!-- Estudiante #1 -->
     <div>
         <!--Parrafos-->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis, sit mollitia fuga vitae quae illum? Reprehenderit, vel! Consectetur tempore illum atque cupiditate quis exercitationem voluptatum reprehenderit enim deserunt amet?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis, sit mollitia fuga vitae quae illum?
+            Reprehenderit, vel! Consectetur tempore illum atque cupiditate quis exercitationem voluptatum reprehenderit
+            enim deserunt amet?</p>
         <!--Encabezados o Secciones-->
         <h1>Probando h1</h1>
         <h2>Probando h2</h2>
         <h3>Probando h3</h3>
         <!--Marcado Básico del Texto-->
-        <p>Lorem ipsum dolor, sit amet <em>consectetur adipisicing elit.</em> Sit voluptatum cupiditate assumenda, a ipsam <strong> maiores explicabo </strong>corporis recusandae illum modi omnis praesentium. Maxime aspernatur illum architecto odit rem quas!</p>
-        
-        <p>"Hipertexto" hace referencia a los enlaces que conectan páginas web entre sí, ya sea dentro de un único sitio web o <del datetime="20230813" cite="https://developer.mozilla.org/es/docs/Web/HTML">entre sitios web.</del><ins datetime="20230813" cite="https://developer.mozilla.org/es/docs/Web/HTML">entre paginas web.</ins></p>
+        <p>Lorem ipsum dolor, sit amet <em>consectetur adipisicing elit.</em> Sit voluptatum cupiditate assumenda, a
+            ipsam <strong> maiores explicabo </strong>corporis recusandae illum modi omnis praesentium. Maxime
+            aspernatur illum architecto odit rem quas!</p>
 
-        <blockquote cite="https://desarrolloweb.com/home/html">"HTML es un lenguaje de marcación que sirve para definir el contenido de las páginas web"</blockquote>
+        <p>"Hipertexto" hace referencia a los enlaces que conectan páginas web entre sí, ya sea dentro de un único sitio
+            web o <del datetime="20230813" cite="https://developer.mozilla.org/es/docs/Web/HTML">entre sitios
+                web.</del><ins datetime="20230813" cite="https://developer.mozilla.org/es/docs/Web/HTML">entre paginas
+                web.</ins></p>
+
+        <blockquote cite="https://desarrolloweb.com/home/html">"HTML es un lenguaje de marcación que sirve para definir
+            el contenido de las páginas web"</blockquote>
         <!--Marcado Avanzado del Texto-->
-        <p>La <acronym title="Real Academia Española">RAE</acronym>  es la institución encargada de velar por la corrección de la lengua española.</p>
-        <p>el paciente entre sus sintomas presenta <dfn title="La epífora, o lagrimeo excesivo, se define como el rebosamiento de las lágrimas de uno o ambos ojos. La epífora puede producirse de forma continua (aparece en todo momento) o de forma intermitente (aparece algunas veces).">epífora</dfn></p>
+        <p>La <acronym title="Real Academia Española">RAE</acronym> es la institución encargada de velar por la
+            corrección de la lengua española.</p>
+        <p>el paciente entre sus sintomas presenta <dfn
+                title="La epífora, o lagrimeo excesivo, se define como el rebosamiento de las lágrimas de uno o ambos ojos. La epífora puede producirse de forma continua (aparece en todo momento) o de forma intermitente (aparece algunas veces).">epífora</dfn>
+        </p>
         <cite>Immanuel Kant</cite>:
         <blockquote>"De dónde viene el ser humano todos lo sabemos, a donde quiere llegar pocos lo conocen"</blockquote>
         <!--Nuevas Lineas-->
         <p>Aquí no hay ningún salto de linea</p>
-        <p>Aquí <br/>si hay salto <br/>de linea</p>
+        <p>Aquí <br />si hay salto <br />de linea</p>
         <!--Texto Preformateado-->
         <pre>aquí estoy
             poniendo espacios            a lo
@@ -44,32 +55,56 @@
         <!--Otros tipos de Enlaces-->
         <script type="text/javascript">
             //<![CDATA[
-              window.onload = function() { alert("La página se ha cargado completamente"); }
+            window.onload = function () { alert("La página se ha cargado completamente"); }
             //]]>
-            </script>
+        </script>
         <!--Enlace a un Email-->
         <a href="mailto:nombre@direccion.com" title="Dirección de email para solicitar más información">
             Solicita más información
-            </a>
+        </a>
     </div>
 
     <!-- Estudiante #2 -->
     <div>
-                <form action="maneja_formulario.php" method="post">
-  <fieldset>
-    <legend>Datos personales</legend>
-    Nombre <br/>
-    <input type="text" name="nombre" value="" />
-    <br/>
-    Apellidos <br/>
-    <input type="text" name="apellidos" value="" />
-    <br/>
-    DNI <br/>
-    <input type="text" name="dni" value="" size="10" maxlength="9" />
-  </fieldset>
+        <form action="maneja_formulario.php" method="post">
+            <fieldset>
+                <legend>Datos personales</legend>
+                Nombre <br />
+                <input type="text" name="nombre" value="" />
+                <br />
+                Apellidos <br />
+                <input type="text" name="apellidos" value="" />
+                <br />
+                DNI <br />
+                <input type="text" name="dni" value="" size="10" maxlength="9" />
+            </fieldset>
 
-  
-</form>
+
+        </form>
+
+        <!-- Listas no ordenadas -->
+
+        <h1>Menú</h1>
+
+        <ul>
+            <li>Inicio</li>
+            <li>Noticias</li>
+            <li>Artículos</li>
+            <li>Contacto</li>
+        </ul>
+
+
+        <!-- Listas ordenadas -->
+        <h1>Instrucciones</h1>
+
+        <ol>
+            <li>Enchufar correctamente</li>
+            <li>Comprobar conexiones</li>
+            <li>Encender el aparato</li>
+        </ol>
+
+        <!-- Listas de definicion -->
+        
 
     </div>
 
@@ -118,15 +153,15 @@
             <!-- Objetos  -->
             <object data="NASA.mp3" type="application/mp3"> </object><br>
             <object data="NASA.mp3" type="application/x-shockwave-flash"></object><br>
-            <object title="La Tierra vista desde el espacio" classid="http://www.observer.mars/TheEarth.py" ></object>
+            <object title="La Tierra vista desde el espacio" classid="http://www.observer.mars/TheEarth.py"></object>
             <!-- Formato alternativo en forma de vídeo -->
-                <object data="PlanetaTierra.mpeg" type="application/mpeg">
-                    <!-- Otro formato alternativo mediante una imagen GIF -->
-                    <object data="PlanetaTierra.gif" type="image/gif">
-                        <!-- Si el navegador no soporta ningún formato, se muestra el siguiente texto -->
-                        La <strong>Tierra</strong> vista desde el espacio.
-                    </object>
+            <object data="PlanetaTierra.mpeg" type="application/mpeg">
+                <!-- Otro formato alternativo mediante una imagen GIF -->
+                <object data="PlanetaTierra.gif" type="image/gif">
+                    <!-- Si el navegador no soporta ningún formato, se muestra el siguiente texto -->
+                    La <strong>Tierra</strong> vista desde el espacio.
                 </object>
+            </object>
             </object>
 
             <object width="425" height="350">
